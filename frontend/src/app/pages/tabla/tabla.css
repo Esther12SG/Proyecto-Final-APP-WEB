@@ -1,0 +1,61 @@
+.contenedor {
+  min-height: 100vh;
+  padding: 35px;
+  background: linear-gradient(135deg, #ffe1f0, #dff4ff);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.encabezado {
+  max-width: 900px;
+  margin: 0 auto 25px auto;
+  padding: 25px;
+  text-align: center;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.encabezado h1 {
+  margin: 0;
+  color: #d16ba5;
+  font-size: 34px;
+}
+
+.encabezado p {
+  color: #5f6f89;
+  margin-top: 10px;
+}
+
+.card {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 22px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.92);
+}
+
+.card h2 {
+  color: #6b5b95;
+  margin-bottom: 15px;
+}
+
+.tabla {
+  width: 100%;
+}
+
+th {
+  font-weight: bold;
+  color: #6b5b95;
+}
+
+td {
+  color: #333;
+}
+
+.cambio {
+  border-left: 8px solid #d16ba5;
+}
+
+.sin-cambio {
+  text-align: center;
+  color: #5f6f89;
+}
